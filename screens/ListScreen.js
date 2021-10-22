@@ -3,11 +3,14 @@ import {View, Text, StyleSheet,ImageBackground,ScrollView ,Image,TouchableOpacit
 import MyHeader from '../components/MyHeader';
 import {RFValue} from 'react-native-responsive-fontsize'
 import {Card} from 'react-native-elements'
+import { SafeAreaView } from 'react-native-safe-area-context';
 
  export default class ListScreen extends React.Component{
      render(){
          return(
-            <ScrollView>
+             <SafeAreaView>
+           <ScrollView >
+  <ScrollView overScrollMode = "always">
                  <MyHeader title = "THE ACCESSIBLE INDIA" navigation={this.props.navigation}/>
                  <View style = {{flex:1}}>
                      <Image source={require("../assets/calendar.png")}
@@ -42,6 +45,8 @@ import {Card} from 'react-native-elements'
                     
                  </View>
             </ScrollView>
+            </ScrollView>
+            </SafeAreaView>
          )
      }
  }

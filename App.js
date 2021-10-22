@@ -13,17 +13,17 @@ import DisabilityAndType from './screens/DisabilityAndType';
 import DisabilityInIndia from './screens/DisabilityInIndia';
 import Education from './screens/Education/Education';
 import Events from './screens/Events';
-import Connect from './screens/Expert Connect/Connect'
+import Connect from './screens/ExpertConnect/Connect'
 import MedicalConnect from './screens/MedicalConnect/EmergencyConnect';
 import SkillDevelopment from './screens/SkillDevelopment';
 import SocialSecurity from './screens/SocialSecurity';
 import Training from './screens/Training';
 import{createStackNavigator} from 'react-navigation-stack'
-import ExpertConnect from './screens/Expert Connect/ExpertConnect'
-import PhysioConnect from './screens/Expert Connect/Physio'
-import Psycologist from './screens/Expert Connect/Psyco'
-import Psychiatric from './screens/Expert Connect/Psychiatric'
-import Appliances from './screens/Expert Connect/Appliances'
+import ExpertConnect from './screens/ExpertConnect/ExpertConnect'
+import PhysioConnect from './screens/ExpertConnect/Physio'
+import Psycologist from './screens/ExpertConnect/Psyco'
+import Psychiatric from './screens/ExpertConnect/Psychiatric'
+import Appliances from './screens/ExpertConnect/Appliances'
 import EyeCare from './screens/MedicalConnect/EyeCare'
 import Special from './screens/Education/Special'
 import Blog from './screens/Blog'

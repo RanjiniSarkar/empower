@@ -7,7 +7,9 @@ export default class DisabilityInIndia extends React.Component{
     render(){
 
         return(
+            <View>
             <ScrollView>
+            
                   <View style = {{flex:1}}>
                      <Header
           leftComponent={<Icon name='arrow-back' type='MaterialIcons' color='white'  onPress={() => this.props.navigation.navigate("List")}/>}
@@ -205,7 +207,7 @@ export default class DisabilityInIndia extends React.Component{
 
                   </View>
             </ScrollView>
-          
+          </View>
         )
     }}
     const styles = StyleSheet.create({

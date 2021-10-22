@@ -1,7 +1,7 @@
 import React,{Component} from 'react';
 import {View, Text,TouchableOpacity,ScrollView,Image,StyleSheet,Linking} from 'react-native';
 import {Card,Icon,Header} from 'react-native-elements'
-import PhysioConnect from '../../screens/Expert Connect/Physio';
+import PhysioConnect from '../../screens/ExpertConnect/Physio';
 
 
 

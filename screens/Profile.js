@@ -161,7 +161,7 @@ var styles = StyleSheet.create({
       },
       logOutButton : {
         width:300,
-        height:50,
+        height:30,
         marginTop:RFValue(40),
         justifyContent:'center',
         alignItems:'center',
